@@ -53,6 +53,9 @@ Static importance scoring often retains **redundant tokens** with high semantic 
 ## 📈 Experimental Results
 
 ### 🏆 LongBench Performance
+<div align="center">
+<img src="https://github.com/lxlcooper/GraphKV/blob/main/LongBench.png" width="900" alt="GraphKV Overview">
+</div>
 
 <div style="font-size: 16px">
 
