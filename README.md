@@ -32,7 +32,7 @@ Static importance scoring often retains **redundant tokens** with high semantic 
 </div>
 
 <div align="center">
-<img src="https://github.com/lxlcooper/GraphKV/blob/main/Method.png" width="500" alt="GraphKV Overview">
+<img src="https://github.com/lxlcooper/GraphKV/blob/main/Method.png" width="800" alt="GraphKV Overview">
 </div>
 
 ---
@@ -53,7 +53,6 @@ Static importance scoring often retains **redundant tokens** with high semantic 
 ## 📈 Experimental Results
 
 ### 🏆 LongBench Performance
-![LongBench Results](./assets/longbench_results.png)
 
 <div style="font-size: 16px">
 
@@ -61,27 +60,3 @@ Static importance scoring often retains **redundant tokens** with high semantic 
 - **Achieves ~3% improvement** over SnapKV and PyramidKV with KV cache size of 512
 - **Maintains high performance** with only 10% of full KV cache budget
 
-</div>
-
-### 🧪 Needle in a Haystack
-![Needle Results](./assets/needle_results.png)
-
-<div style="font-size: 16px">
-
-- **Improves PyramidKV accuracy** from 90.3% to 96.9% (+6.6%)
-- **Improves SnapKV accuracy** from 87.7% to 95.9% (+8.2%)
-
-</div>
-
----
-
-## 🚀 Quick Start
-
-### Installation
-
-<div style="font-size: 16px">
-
-```bash
-git clone https://github.com/EPIC-Lab/GraphKV.git
-cd GraphKV
-pip install -r requirements.txt
