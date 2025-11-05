@@ -15,6 +15,8 @@ Efficient Key-Value (KV) cache management is essential for processing long text 
 
 </div>
 
+
+
 ---
 
 ## 🔍 Key Observation
@@ -27,6 +29,10 @@ Efficient Key-Value (KV) cache management is essential for processing long text 
 
 Static importance scoring often retains **redundant tokens** with high semantic similarity, while discarding **moderately important but diverse tokens**. GraphKV addresses this by dynamically refining importance scores through similarity-based propagation.
 
+</div>
+
+<div align="center">
+<img src="https://github.com/lxlcooper/GraphKV/blob/main/Method.png" width="500" alt="GraphKV Overview">
 </div>
 
 ---
