@@ -6,7 +6,7 @@
 Official implementation of **GraphKV**, a graph-based framework for dynamic KV cache eviction in large language models.
 
 ## Abstract
-![GraphKV Overview](C:\Users\Cooper\Downloads\OVER.png)
+![GraphKV Overview](.\OVER.png)
 Efficient Key-Value (KV) cache management is essential for processing long text sequences in LLMs. Conventional KV eviction strategies rely on static heuristics that fail to capture evolving token dependencies. GraphKV models tokens as nodes with importance scores and similarity relationships as edges, using a **decay-signal-propagation** mechanism to dynamically update token importance by propagating information across the graph.
 
 ## Key Observation
