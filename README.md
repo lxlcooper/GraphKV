@@ -20,7 +20,7 @@ Efficient Key-Value (KV) cache management is essential for processing long text 
 ## 🔍 Key Observation
 
 <div align="center">
-<img src="https://github.com/lxlcooper/GraphKV/blob/main/OVER.png" width="500" alt="GraphKV Overview">
+<img src="https://github.com/lxlcooper/GraphKV/blob/main/Observation.png" width="800" alt="GraphKV Overview">
 </div>
 
 <div style="font-size: 16px">
